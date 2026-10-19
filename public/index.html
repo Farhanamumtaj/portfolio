@@ -1532,7 +1532,7 @@
               "Please enter your name, a valid email and a message.";
             return;
           }
-          var EP = "https://formspree.io/f/moejzwwe";
+          var EP = "/api/contact";
           if (EP) {
             fs.textContent = "Sending…";
             fetch(EP, {
