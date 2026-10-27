@@ -998,7 +998,7 @@
               <i style="width: 26%; background: var(--v)"></i><b></b>
             </div>
           </div>
-          <p class="mono">Full-Stack Developer</p>
+          <p class="mono">AI & Full-Stack Developer</p>
           <h1>
             <span class="l"><span>Building the future,</span></span
             ><span class="l"
@@ -1186,7 +1186,15 @@
                   rel="noopener"
                   >Live demo ↗</a
                 >
+                <a
+                  class="btn pri"
+                  href="https://github.com/Farhanamumtaj/Hirely"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub Repository Link ↗</a
+                >
               </div>
+              
               <p class="note">
                 The visual above is a representative mockup, not a screenshot.
                 The demo may take a moment to wake on free hosting.
@@ -1194,48 +1202,137 @@
             </div>
           </article>
 
-          <article class="proj rev rv">
+          <article class="proj rv">
             <div class="prev">
               <div class="mock">
                 <span class="tag mono">Concept preview</span>
                 <div class="dots"><i></i><i></i><i></i></div>
-                <div class="wave" aria-hidden="true">
-                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i
-                  ><i></i><i></i><i></i><i></i>
-                </div>
+
+                <svg
+                  class="map"
+                  viewBox="0 0 320 170"
+                  role="img"
+                  aria-label="Map preview showing a route from source to destination"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <!-- map grid -->
+                  <g
+                    stroke="currentColor"
+                    stroke-opacity=".12"
+                    stroke-width="1"
+                  >
+                    <path d="M0 34H320M0 68H320M0 102H320M0 136H320" />
+                    <path
+                      d="M53 0V170M106 0V170M160 0V170M213 0V170M266 0V170"
+                    />
+                  </g>
+                  <!-- land blocks -->
+                  <g fill="currentColor" fill-opacity=".07">
+                    <path
+                      d="M20 120c20-26 50-18 70-34s20-40 52-36 30 30 12 48-48 20-74 30-70 8-60-8z"
+                    />
+                    <path
+                      d="M190 30c30-14 70-6 92 12s14 52-12 64-58 6-70-18 -22-46-10-58z"
+                    />
+                  </g>
+                  <!-- route -->
+                  <path
+                    class="route"
+                    d="M62 118C104 62 150 130 196 84S250 52 262 50"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-dasharray="6 7"
+                  />
+                  <!-- source -->
+                  <circle
+                    cx="62"
+                    cy="118"
+                    r="11"
+                    fill="currentColor"
+                    fill-opacity=".18"
+                  />
+                  <circle cx="62" cy="118" r="5.5" fill="currentColor" />
+                  <text
+                    x="62"
+                    y="146"
+                    text-anchor="middle"
+                    font-size="11"
+                    fill="currentColor"
+                    font-family="monospace"
+                  >
+                    SOURCE
+                  </text>
+                  <!-- destination pin -->
+                  <path
+                    d="M262 50c-9-11-15-17-15-25a15 15 0 0 1 30 0c0 8-6 14-15 25z"
+                    fill="currentColor"
+                  />
+                  <circle cx="262" cy="25" r="5.5" fill="#fff" />
+                  <text
+                    x="262"
+                    y="68"
+                    text-anchor="middle"
+                    font-size="11"
+                    fill="currentColor"
+                    font-family="monospace"
+                  >
+                    DESTINATION
+                  </text>
+                </svg>
+
                 <div class="lang">
-                  <span class="chip">Language</span
-                  ><span class="chip">Voice</span><span class="chip">Text</span>
+                  <span class="chip">Route</span><span class="chip">Budget</span
+                  ><span class="chip">Stay</span><span class="chip">Eat</span>
                 </div>
               </div>
             </div>
             <div class="pt">
               <p class="mono">
-                AI / Voice-First Accessibility / Public-Service Navigation
+                AI / Travel Planning / Budget-Based Trip Itineraries
               </p>
-              <h3>ZIVA</h3>
+              <h3>Voyage Buddy</h3>
               <p>
-                An AI-powered assistant concept to help women explore relevant
-                Indian government schemes through accessible, natural-language
-                conversation in their preferred language.
+                An AI-powered travel companion that plans a complete trip within
+                your budget. Enter your source, destination, number of
+                travellers, days and budget, and get stay options, famous
+                tourist spots and restaurants with ratings in one place.
               </p>
               <ul>
-                <li>Voice-first interaction with text-based guidance</li>
-                <li>Language selection for simpler scheme discovery</li>
                 <li>
-                  Approachable interface for users with limited digital literacy
+                  Simple trip form for source, destination, travellers, days and
+                  budget
+                </li>
+                <li>
+                  Groq AI-generated trip plan that stays within the chosen
+                  budget
+                </li>
+                <li>
+                  Suggestions for stays, tourist spots and restaurants, with
+                  ratings
                 </li>
               </ul>
               <div class="chips">
-                <span class="chip">React.js</span
-                ><span class="chip">JavaScript</span
-                ><span class="chip">Gemini</span>
+                <span class="chip">React.js</span><span class="chip">HTML</span
+                ><span class="chip">CSS</span><span class="chip">Node.js</span
+                ><span class="chip">Express.js</span
+                ><span class="chip">Groq AI</span>
+              </div>
+              <div class="row">
+                <a
+                  class="btn pri"
+                  href="https://github.com/Farhanamumtaj/VoyageBuddy"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub Repository Link ↗</a
+                >
               </div>
               <p class="note">
-                AI-generated scheme information should always be verified
-                against official government sources. Language and scheme
-                coverage are limited to what is implemented. Repository and demo
-                links will be added when available.
+                AI-generated plans, prices and ratings are estimates and should
+                be verified before booking. Coverage depends on what the AI
+                returns for each destination. Repository and demo links will be
+                added when available.
               </p>
             </div>
           </article>
